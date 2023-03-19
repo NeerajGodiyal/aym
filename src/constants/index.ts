@@ -24,6 +24,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    b,
+    rupam,
+    ayam,
+    bhanu,
+    nlogo,
   } from "../assets";
   
   export const navLinks = [
@@ -118,54 +123,50 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Personal Project",
+      icon: reactjs,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "React Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      company_name: "Personal Project",
+      icon: redux,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
+      company_name: "Personal Project",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
+      company_name: "Personal Project",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Knowledge of multiple front-end languages and libraries",
+        "Familiarity with common stacks",
       ],
     },
   ];
@@ -173,27 +174,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Neeraj's supervision accelerated my improvement as a software developer. I did (and still do) aspire to attain his level of proficiency with software development.",
+      name: "Rupansh",
+      designation: "Engineer",
+      company: "Supra Oracles",
+      image: rupam,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I recommend him to anyone looking for a new job within development field . He is an extremely competent and intelligent developer.",
+      name: "Ayam Dobhal",
+      designation: "Engineer",
+      company: "CodeMarks",
+      image: ayam,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Always available to help, incredibly proficient, hits deadlines without fail, hard working and trustworthy. In my experience, no project is too much trouble with Neeraj . I can recommend his services without hesitation.",
+      name: "Bhanu Pratap Singh",
+      designation: "Engineer",
+      company: "SRM",
+      image: bhanu,
     },
   ];
   
@@ -216,50 +217,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: b,
+      source_code_link: "https://github.com/NeerajGodiyal/Web3_crypto_exchange_app",
     },
     {
-      name: "Job IT",
+      name: "Web3 Crowdfunding",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that provides a platform for users to create and manage crowdfunding campaigns.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "dapp",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: b,
+      source_code_link: "https://github.com/NeerajGodiyal/Web3_cf",
     },
     {
-      name: "Trip Guide",
+      name: "Web3.0 Blockchain App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web 3.0 application that allows users to send transactions through the blockchain",
       tags: [
         {
-          name: "nextjs",
+          name: "ethereum",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "blockchain",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: b,
+      source_code_link: "https://github.com/NeerajGodiyal/Web3.0",
     },
   ];
   

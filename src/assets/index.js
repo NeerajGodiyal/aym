@@ -1,3 +1,4 @@
+import nlogo from "./nlogo.svg";
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -29,6 +30,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import b from "./b.jpg";
+import rupam from "./rupam.jpg";
+import ayam from "./ayam.png";
+import bhanu from "./bhanu.png";
+import nj from "./nj.jpg";
 
 export {
   logo,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  b,
+  rupam,
+  ayam,
+  bhanu,
+  nlogo,
+  nj,
 };

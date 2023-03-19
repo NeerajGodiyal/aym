@@ -1,6 +1,7 @@
 import { Cursor , useTypewriter } from "react-simple-typewriter";
 import React from 'react'
 import  BackgroundCircles  from "./BackgroundCircles";
+import nj from "../assets/nj.jpg";
 
 
 type Props = {}
@@ -8,8 +9,8 @@ type Props = {}
 function ok({}: Props) {
     const [text] = useTypewriter({
         words: [
-            "heyy , I'm Ayam Dobhal",
-            "I'm a Backend Developer",
+            "heyy , I'm Neeraj Godiyal",
+            "I'm a FullStack Developer",
             "Responsible, working adult by day",
             "and a shameless lush by night.",
             "oops...",
@@ -24,7 +25,7 @@ function ok({}: Props) {
 
         <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover " 
-        src = "https://media.discordapp.net/attachments/1056092080872632320/1082014892300714116/2f86fd49ea4c78c6f082d0d3bb6c11eb.png" 
+        src = {nj}
         alt = "image" 
         />
         <div className="z-20">

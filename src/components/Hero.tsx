@@ -6,7 +6,7 @@ import  BackgroundCircles  from './BackgroundCircles';
 import { Cursor , useTypewriter } from "react-simple-typewriter";
 
 const text1 = "Hey , I'm";
-const text2 = "Ayam ,";
+const text2 = "Neeraj ,";
 const text3 = "Welcome";
 
 

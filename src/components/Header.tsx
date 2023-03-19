@@ -29,25 +29,25 @@ function Header({}: Props) {
         
             className='flex flex-row items-center' >
             <SocialIcon 
-            url='https://github.com/ayamdobhal'
+            url='https://github.com/NeerajGodiyal'
             fgColor='orange'
             bgColor='transparent'
             
             />
             <SocialIcon 
-            url='https://www.facebook.com/AyamD1533/'
+            url='https://www.facebook.com/naj.godiyal.3/'
             fgColor='cyan'
             bgColor='transparent'
             
             />
             <SocialIcon 
-            url='https://www.youtube.com/channel/UCYmLj9J8ZdfpK3hTgsD1u3A'
+            url='https://www.youtube.com/channel/UCrmXM_ALRVu8nBGFSEVD-nA'
             fgColor='red'
             bgColor='transparent'
             
             />
             <SocialIcon 
-            url='https://www.instagram.com/ayamdobhal/'
+            url='https://www.instagram.com/neerajgodiyal250/'
             fgColor='pink'
             bgColor='transparent'
             

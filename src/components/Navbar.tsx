@@ -4,7 +4,7 @@ import { useEffect , useState } from 'react';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo , menu , close } from '../assets';
+import { logo , menu , close , nlogo } from '../assets';
 
 
 const Navbar = () => {
@@ -21,9 +21,9 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}
         >
-          <img src= {logo} alt = "logo" className='w-9 h-9 object-contain' />
+          <img src= {nlogo} alt = "logo" className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer' >
-           Ayam &nbsp;<span className='sm:block hidden'>Dobhal</span>
+           Neeraj &nbsp;<span className='sm:block hidden'>Godiyal</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10' >
